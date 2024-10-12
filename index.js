@@ -7,7 +7,7 @@ const PORT = process.env.PORT || 3000;
 // Basic route
 app.get('/', (req, res) => {
     res.json({
-        message: 'Successfully Deployed',
+        message: 'Successfully Deployed Frrr',
         name: 'Skippy',
         port: PORT
     });
