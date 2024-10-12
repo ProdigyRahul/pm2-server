@@ -7,7 +7,7 @@ const PORT = process.env.PORT || 3000;
 // Basic route
 app.get('/', (req, res) => {
     res.json({
-        message: 'Hello, World!',
+        message: 'Hello, There!',
         name: 'Skippy',
         port: PORT
     });
